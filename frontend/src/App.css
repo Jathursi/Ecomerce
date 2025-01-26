@@ -1,0 +1,96 @@
+.main{
+  height: 100%;
+  width: 100%;
+}
+.main-sub{
+  width: 80%;
+  height: 80vh;
+}
+.search{
+  width: 200%;
+  height: 50%;
+  margin-top: 25px;
+}
+.right{
+  margin-top: 30px;
+}
+.add{
+  height: 50vh;
+}
+.add2 {
+  height: 30vh;
+}
+.main2{
+  min-height: 100vh !important;
+  width: 80%;
+  height: auto;
+}
+.about{
+  height: 50vh;
+  width: 100%;
+}
+.chatbot {
+  position: fixed;
+  top: 0;
+  bottom: 50px;
+  width: 20%;
+  /* Distance from the bottom */
+  right: 50px;
+  /* Distance from the right */
+  /* background-color: blueviolet; */
+  z-index: 1000;
+  /* Ensure it appears on top of other elements */
+  /* padding: 10px; */
+  /* Add padding for better appearance */
+  border-radius: 10px;
+  /* Optional: rounded corners */
+  color: white;
+  /* Text color for better readability */
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+/* .chat{
+  height: 10%;
+  /* width: 100% !important; 
+  background-color: brown;
+  background-image: './Assets/img.png';
+  background-repeat: no-repeat;
+  background-position: cover;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 1px solid #000000;
+} */
+
+.chat {
+  height: 15%;
+  width: 30%;
+  /* Adjust as needed */
+  /* width: 100% !important; */
+  /* Avoid !important unless necessary */
+  /* background-color: rgb(233, 38, 38); */
+  background-image: url('./Assets/img.png');
+  /* Correct syntax */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Ensures the image fills the area */
+  background-position: center;
+  /* Centers the image */
+  padding: 20px;
+  border-radius: 50%;
+  /* Makes it circular */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  /* Adds a shadow */
+}
+.topBar{
+  width: 10%;
+  height: 3%;
+}
+.top{
+  width: 100%;
+  /* height: 50%; */
+}
+.search1{
+  width: 50%;
+  /* height: 30%; */
+}
