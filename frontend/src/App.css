@@ -4,7 +4,15 @@
 }
 .main-sub{
   width: 80%;
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
+}
+.catelog{
+  height: 20vh;
+}
+.card-cat{
+  height: 10vh;
+  /* width: 10%; */
 }
 .search{
   width: 200%;
@@ -21,13 +29,20 @@
   height: 30vh;
 }
 .main2{
-  min-height: 100vh !important;
+  max-height: 100vh !important;
   width: 80%;
   height: auto;
+}
+.foryou{
+  width: 80%;
+}
+.main3{
+  margin-left: 11%;
 }
 .about{
   height: 50vh;
   width: 100%;
+  background: #3949AB;
 }
 .chatbot {
   position: fixed;
@@ -61,7 +76,19 @@
   border-radius: 50%;
   box-shadow: 1px solid #000000;
 } */
-
+ /* .carosal{
+  margin-top: 10px;
+ } */
+.image{
+  /* margin-top: 10px; */
+  height: 45vh !important;
+}
+.carosal2{
+  width: 80%;
+}
+.image2{
+  height: 28vh;
+}
 .chat {
   height: 15%;
   width: 30%;
@@ -69,6 +96,7 @@
   /* width: 100% !important; */
   /* Avoid !important unless necessary */
   /* background-color: rgb(233, 38, 38); */
+  background: #1A237E;
   background-image: url('./Assets/img.png');
   /* Correct syntax */
   background-repeat: no-repeat;
@@ -93,4 +121,45 @@
 .search1{
   width: 50%;
   /* height: 30%; */
+}
+
+
+
+/* topbar */
+.top-bar{
+  /* background: white; */
+  background: #1A237E;
+}
+
+.card-tit{
+  color: #1A237E;
+}
+
+
+
+
+
+/* login */
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
 }

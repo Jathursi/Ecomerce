@@ -15,8 +15,11 @@ function Home() {
             <Main/>
           </div>
         </div>
-        <div className='main d-flex justify-content-center'>
-          <div className='main2 bg-primary'>
+        <div className='main3 mt-4'>
+          <h2>For You</h2>
+        </div>
+        <div className='main mt-3 d-flex col justify-content-center'>
+          <div className='main2'>
             <Things/>
           </div>
         </div>
