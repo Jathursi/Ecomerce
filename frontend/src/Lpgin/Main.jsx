@@ -2,7 +2,7 @@ import React from 'react';
 import TopBar from '../Home/TopBar';
 import { Outlet } from 'react-router-dom';
 import About from '../Home/About';
-import img from '../Assets/back2.webp'
+import img from '../Assets/back3.png'
 
 function Main() {
   return (
