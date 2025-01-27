@@ -10,7 +10,7 @@ function Main() {
     <div className=''>
       <div className='add row mx-1'>
         <div className='carosal col-8'>
-          <Carousel className='bg-success mt-2'>
+          <Carousel className='mt-2'>
             <Carousel.Item>
               <img
                 src={ExampleCarouselImage}
@@ -84,7 +84,7 @@ function Main() {
       </div>
       <div className='add2 d-flex justify-content-center'>
         <div className='carosal2 col-8'>
-          <Carousel className='bg-success mt-2'>
+          <Carousel className=' mt-2'>
             <Carousel.Item>
               <img
                 src={ExampleCarouselImage}
